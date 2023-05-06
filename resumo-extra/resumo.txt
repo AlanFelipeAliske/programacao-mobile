@@ -1,0 +1,36 @@
+## Atividade Extra
+
+Tudo o que for atividade fica na pasta MainActivity (ponto entrada da aplicação)
+Main activity é a classe principal do Android
+
+Sempre que um recurso é adicionado no projeto, como por exemplo uma nova imagem, a classe R é gerada automaticamente para conter uma constante para o novo recurso criado. 
+
+ViewGroup é um contêiner invisível que define a estrutura do layout para View e outros objetos ViewGroup
+
+View é um retângulo na tela que mostra algum conteúdo. Ela pode ser uma imagem, um pedaço de texto, um botão ou qualquer outra coisa que o aplicativo pode exibir.
+
+Um view group permite que a hierarquia de exibição colocada dentro dele seja rolada. A exibição de rolagem pode ter apenas um filho direto colocado dentro dela.
+
+O sistema fornece a API CardView como uma maneira fácil de mostrar informações dentro de cards que têm uma aparência consistente em toda a plataforma. Esses cards têm uma elevação padrão acima da visualização em grupo que os contém, fazendo com que o sistema exiba sombras abaixo deles.
+
+"match_parent" é um atributo usado para definir a largura ou altura de uma exibição igual à largura ou altura de sua exibição pai 
+
+"wrap_content" instrui a visualização a definir o próprio tamanho como for necessário para ajustar o conteúdo a ela.
+
+A pasta res / values é usada para armazenar os valores dos recursos usados ​​em muitos projetos Android para incluir recursos de cor, estilos, dimensões etc.
+colors.xml: O colors.xml é um arquivo XML que é usado para armazenar as cores dos recursos.
+O dimens.xml: é usado para definir as dimensões para diferentes widgets a serem incluídos no projeto Android. É uma boa prática de codificação usar dimens.xml para definir uma dimensão em vez de apenas escrever a dimensão no recurso, devido ao fato de que se alguma vez surgir a necessidade de alterar a dimensão, em vez de fazer uma mudança em todos
+strings.xml: Um dos arquivos de valores mais importantes e amplamente utilizados é o strings.xml devido à sua aplicabilidade no projeto Android. A função básica do strings.xml é definir as strings em um arquivo para que seja fácil usar a mesma string em diferentes posições no projeto android, além de fazer com que o projeto pareça menos confuso.
+
+imeOptions: seleciona qual botão sera exibido ao usuário (botão para ação)
+
+imputType: seleciona qual tipo de teclado sera exibido ao usuário 
+
+FrameLayout é projetado para bloquear uma área na tela para exibir um único item. Geralmente, FrameLayout deve ser usado para manter uma única exibição filha, porque pode ser difícil organizar as exibições filhas de maneira escalonável para diferentes tamanhos de tela sem que as filhas se sobreponham
+
+
+
+
+
+
+
