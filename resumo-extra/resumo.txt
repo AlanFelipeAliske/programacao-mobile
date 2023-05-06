@@ -28,9 +28,4 @@ imputType: seleciona qual tipo de teclado sera exibido ao usuário
 
 FrameLayout é projetado para bloquear uma área na tela para exibir um único item. Geralmente, FrameLayout deve ser usado para manter uma única exibição filha, porque pode ser difícil organizar as exibições filhas de maneira escalonável para diferentes tamanhos de tela sem que as filhas se sobreponham
 
-
-
-
-
-
-
+É sempre preciso ancorar imagens na vertical e horizontal para definir a posição correta
