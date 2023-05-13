@@ -1,0 +1,46 @@
+
+AULA - 12/05/2023
+
+Textos em hard code não são bons no android
+
+Muda a cor de botões backgoundTint="@color/red_600"
+
+nome de id: android:id="@+id/nome_id"
+
+Acessar components de tela:
+1. tradicional - findViewById(id)
+    val btnOla = findViewById(R.id.btnOla)
+    val btnClick = findViewById(R.id.btnClick)
+
+2. Existem bibliotecas que fazem o trabalho de declaração automatica dos components:
+Vantagem - Economiza digitação de código => minimiza erros
+    - Dangger2 - terceiros
+    - DataBinding - incluída no android
+
+Configuração do DataBinding
+    1. Habilitar o DataBinding no gradle
+    2. Modificar os arquivos de layout
+    3. Substituir a chamada do setContentView()
+
+Tratamento de eventos 
+Existem diferentes formas de cadastra um evento em um component
+Os eventos são disparados pelos components após a interação do usuário
+As funções para cadastro de evento começam com <on> e terminam em <listner> 
+
+    1. Via função lambda
+    mBinding.componentBtnOla.setOnClickListner {
+        Toast.makeTextt(this, getText(R.string.componentBtnOla), Toast.LENGTH_SHORT).show()
+    }
+
+    2. Via método
+    - usada quando o evento precisa ser reaproveitado. Exemplo salvar
+    - podem ser funções complexas
+    mBinding.componentBtnOla.setOnClickListner(::olaClickListner)
+
+//------------------------------------------------------------------------------------------------------------------
+
+AULA - **/**/2023
+
+
+
+
