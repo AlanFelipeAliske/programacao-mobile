@@ -1,0 +1,8 @@
+API a ser utilizada { Marvel }
+
+Exibir: {
+    imagem
+    nome da serie ou filme
+    eventos
+    link para pagina de detalhes 
+}
