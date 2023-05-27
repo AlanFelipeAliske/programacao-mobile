@@ -1,0 +1,57 @@
+Aplicações
+
+Compile to native
+Ambiente de terceiros
+Aplicação compilada para varios ambientes
+dificuldade no dominio dos frameworks
+exemplos: react native, fluter, xamarin
+
+
+hibridas 
+facil para desenvolvedores web
+executa em uma webview - pode ser lento
+exemplos: phoneGap, Cordova, Sancha, ionic
+
+
+PWA
+não são aplicativos reais
+executa no navegador web
+não acessa recurssos do dispositivo
+exemplos: html, React, angular, vue
+
+http
+
+https: rest
+
+entidades são urls
+
+medodos http: get: read, post: create, put: update, delete: delete 
+
+json {compacto, tipos explicitos, javascript}
+
+
+blob: raw, url
+
+encoding base64
+
+
+codigos de erros http:
+200: ok
+201: criado
+401: acesso não autorizado
+404: recurso não encontrado
+500: erro interno - bug
+503: sobrecarga no servidor
+
+
+autenticação:
+autenticação simples:
+trivial para desenvolvedores
+pode ser interceptada
+
+assinatura de apis:
+compartilhamento de chaves
+assinatura é um hash
+multiplas chaves por usuário
+JWT
+OAuth 2.0
